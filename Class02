@@ -1,6 +1,6 @@
 package class1;
 
-class Date            // �w�q���OCCircle
+class Date 
 {
 
    private String name;
