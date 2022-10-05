@@ -23,9 +23,7 @@ public class Class02 {
 	public static void main(String args[])
 	{	
 		Data.Test a[] = new Data.Test [] { new Data("Annie").new Test(85, 92), new Data("Brian").new Test(77, 56)};
-		a[0].avg();
 		a[0].show();
-		a[1].avg();
 		a[1].show();
 	}
 }
