@@ -1,0 +1,31 @@
+package class1;
+
+class Date            // �w�q���OCCircle
+{
+
+   private String name;
+   private Test score;
+   class Test{
+	   int english,math;
+	   public Test(int eng,int m) {
+		   english=eng,math=m;
+	   }
+	   double avg() {
+		   
+		   return a;
+	   }
+	   void show() {
+		   
+	   }
+   }
+   
+}
+public class class1_1
+{
+   public static void main(String args[])
+   {	
+	  Date cir=new Date(); 
+      int a[][] = {{85,92},{77,56}};
+      
+   }
+}
