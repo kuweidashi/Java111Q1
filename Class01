@@ -1,0 +1,31 @@
+package Java111Q1
+;
+
+class Class01       
+{
+   private static double pi=3.14159;
+   int radius,length,width,height;
+   
+   public void Cal_area()   
+   {
+      double x = Math.round((4.0/3.0)*pi*Math.pow(radius,3)*10.0)/10.0;
+      double y = 2*(length*width+length*height+width*height);
+      System.out.println("半徑="+radius);
+      System.out.println("球形體積="+x);
+      System.out.println("長="+length+",寬="+width+",高="+height);
+      System.out.println("立方體表面積="+(int)y);
+   }
+}
+public class class1_1
+{
+   public static void main(String args[])
+   {
+      CCircle cir1=new CCircle(); 
+      cir1.radius=10;
+      cir1.length=4;
+      cir1.width=5;
+      cir1.height=6;
+      cir1.Cal_area();
+   
+   }
+}
